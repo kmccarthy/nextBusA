@@ -1,4 +1,4 @@
 nextBusA
 ========
 
-Ottawa OCTranspo: when is you next bux
+Ottawa OCTranspo: when is you next bus.

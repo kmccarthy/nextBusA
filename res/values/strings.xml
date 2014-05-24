@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World</string>
+    <string name="app_name">Your Next Bus</string>
+    <string name="hint_stop">Bus Stop</string>
+    <string name="hello_world">search results</string>
+    <string name="NoSummary">No Route Information Available</string>
+    
+</resources>

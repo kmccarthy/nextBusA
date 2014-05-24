@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout01"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world"
+        android:id="@+id/tv_View"
+        android:textColor="#FF0000FF" />
+    
+    <EditText
+        android:layout_height="wrap_content" 
+        android:layout_width="wrap_content"
+        android:textColor="#FF0000FF"
+        android:hint="@string/hint_stop"
+        android:inputType="numberDecimal"
+        android:maxLength="4"
+        android:digits="0123456789"
+        android:imeOptions="actionSend"
+        android:id="@+id/et_Text" />
+    
+    <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:scrollbars="vertical"
+    android:fillViewport="true"
+    android:scrollbarStyle="insideInset"
+    android:layout_weight="1">
+    <!--
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:orientation="vertical"
+            android:id="@+id/info_layout">
+	-->
+            
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/hello_world"
+		        android:id="@+id/tv_Result"
+		        android:textColor="#FF0C090A" 
+		        android:typeface="serif" />
+		    
+	    <!--   </LinearLayout> -->
+    </ScrollView>
+</LinearLayout>
