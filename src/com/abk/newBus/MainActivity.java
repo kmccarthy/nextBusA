@@ -4,7 +4,8 @@ import org.json.JSONObject;
 import com.abk.newBus.MainActivity;
 import com.abk.newBus.PostHTTP;
 import com.abk.newBus.InterpretApi;
-import com.example.nextBus.R;
+//import com.example.nextBus.R;
+import com.abk.newBus.R;
 
 import android.app.Activity;
 import android.net.ConnectivityManager;
