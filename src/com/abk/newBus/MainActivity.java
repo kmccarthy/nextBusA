@@ -1,8 +1,6 @@
 package com.abk.newBus;
 
-import org.json.JSONArray;
 import org.json.JSONObject;
-
 import com.abk.newBus.MainActivity;
 import com.abk.newBus.PostHTTP;
 import com.abk.newBus.InterpretApi;

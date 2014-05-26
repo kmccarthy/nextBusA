@@ -3,7 +3,6 @@ package com.abk.newBus;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-import android.text.Html;
 import android.util.Log;
 
 public final class InterpretApi {

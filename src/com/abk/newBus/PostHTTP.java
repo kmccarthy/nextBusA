@@ -20,17 +20,12 @@ import org.apache.http.client.methods.HttpPost;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.message.BasicNameValuePair;
 
-import android.app.Activity;
-import android.net.ConnectivityManager;
-import android.net.NetworkInfo;
 import android.os.AsyncTask;
 import android.util.Log;
-import android.widget.TextView;
-import android.widget.Toast;
 
 public class PostHTTP extends AsyncTask<String, Void, String> {
 	
-	private static final String LOG_TAG = "HelloWorld";
+	//private static final String LOG_TAG = "HelloWorld";
 	private MainActivity mactivity;
 	
 	public PostHTTP(MainActivity activity) {
